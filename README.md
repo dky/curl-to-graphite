@@ -1,11 +1,11 @@
-#curl-to-pipe-to-graphite
+##curl-to-pipe-to-graphite
 
 I needed a way to send curl web statistics to graphite.  Rather than re-inventing the well I came up with a wrapper 
 to send curl stats to pipe-to-graphite (https://github.com/iFixit/pipe-to-graphite)
 
 Prerequisites:  These scripts assume you have a graphite server up and running ready to receive the stats on port 2003.
 
-##Usage:
+#Usage:
 
 1. Clone the iFixit pipe-to-graphite project. 
 2. Copy the pipe-to-graphite.sh to the relative directory of curl.sh and wrapper.sh
