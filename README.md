@@ -1,7 +1,7 @@
 #curl-to-pipe-to-graphite
 
-I needed a way to send curl web statistics to graphite.  Rather than re-inventing the well I came up with a wrapper 
-to send curl stats to pipe-to-graphite (https://github.com/iFixit/pipe-to-graphite)
+I needed a way to scrape our proxies and send curl web statistics to graphite.  Rather than re-inventing the wheel I came up with a wrapper 
+to send curl stats using the pipe-to-graphite tool from ifixit. (https://github.com/iFixit/pipe-to-graphite)
 
 Prerequisites:  These scripts assume you have a graphite server up and running ready to receive the stats on port 2003.
 
